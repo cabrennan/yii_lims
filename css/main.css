@@ -1,0 +1,323 @@
+// UM Colors come from the style guide found here: http://vpcomm.umich.edu/brand/style-guide/design-principles/colors
+// FFCB05 - Maize
+// 00274C - Blue
+// Supporting Palette
+// 3F9BDA Canham Pool Blue Lt blue
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+    background: #EFEFEF;
+}
+
+#page
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: white;
+    border: 1px solid #00274C;  // UM Blue
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+    border-top: 3px solid #465D85;
+}
+
+#content
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #00274C;
+}
+
+#sidebar
+{
+    padding: 20px 20px 20px 0;
+    width: 100%;
+    border: 1px solid #00274C;
+}
+
+#footer
+{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #00274C;
+}
+
+#logo
+{
+    padding: 10px 20px;
+    font-size: 200%;
+}
+
+#mainmenu
+{
+    background:#00274C;
+}
+
+#mainmenu ul
+{
+    padding:6px 20px 5px 20px;
+    margin:0px;
+}
+
+#mainmenu ul li
+{
+    display: inline;
+}
+
+#mainmenu ul li a
+{
+    color:#FFCB05;
+    background-color:transparent;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+    color: #FFCB05;
+    background-color:#3F9BDA;
+    text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C3F9BDA;
+}
+
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+div.table {
+    width: 100%;
+  //  border: 1px solid red;
+    border-spacing: 1px;
+    border-collapse: separate;
+}
+
+div.table th{
+    font: bold 12px Arial;
+    color: #FFCB05;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+    background: #00274C;
+    text-align: center;
+}
+
+div.attention {
+    background: #FFCB05;
+    font: bold 12px Arial;
+    color: #8a1f11;
+}
+
+div.table td {
+   // background: #E4E1DF;
+   // border: 1px solid red;
+    padding: 0;
+    text-align: center;
+    //width: 99%;
+    //height: 99%;
+    vertical-align: top; //20Apr15 - CB
+}
+div.table td.left {
+   // background: #E4E1DF;
+   // border: 1px solid red;
+  //  padding: 0;
+    text-align: left;
+   // width: 99%;
+   // height: 99%;
+}
+
+div.table tr.shade {
+   background: #EFF0F1;     
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #00274C;
+    border-left: 5px solid #00274C;
+}
+
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #FFCB05;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background:#00274C;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations li
+{
+    padding-bottom: 2px;
+}
+
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #FFCB05;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.operations li a:visited
+{
+    color: #0066A4;
+}
+
+.operations li a:hover
+{
+    background: #3F9BDA;
+}
+
+div.img {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #0000ff;
+    //height: 25px;
+   // width: 25px;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 1px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+table.nested {
+    border-collapse: collapse;
+   // border: 2px solid black;
+    margin: 0;
+    
+    
+    
+}
+

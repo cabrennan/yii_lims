@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2015, 11:34:21 AM
+    Author     : cbrennan
+*/
+
+ul.yiiPager
+{
+    font-size:11px;
+    border:0;
+    margin:0;
+    padding:0;
+    line-height:100%;
+    display:inline;
+}
+
+ul.yiiPager li
+{
+    display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+    border:solid 1px #00247C;
+    font-weight:bold;
+    color:#00247C;
+    padding:1px 6px;
+    text-decoration:none;
+}
+
+ul.yiiPager .page a
+{
+    font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+    border:solid 1px #00274C;  
+}
+
+ul.yiiPager .selected a
+{
+    background:#00247C;
+    color:#FFCB05;
+    font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+    border:solid 1px #00247C;
+    color:#00247C;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+    display:none;
+}
+
+
+

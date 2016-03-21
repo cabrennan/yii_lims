@@ -1,0 +1,148 @@
+/* 
+    Created on : Feb 10, 2015, 10:41:57 AM
+    Author     : cbrennan
+    for CGridView Styling - using UM color guide found here: 
+    http://vpcomm.umich.edu/brand/style-guide/design-principles/colors
+*/
+
+// Maize FFCB05
+// Blue  00274C
+
+
+.grid-view-loading
+{
+        background:url(loading.gif) no-repeat;
+}
+
+.grid-view
+{
+        padding: 0;
+        margin: 0;
+}
+
+.grid-view table.items
+{
+        background: white;
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px #E5E5E5 solid;
+}
+
+.grid-view table.items th, .grid-view table.items td 
+{
+        font-size: 0.9em;
+        border: 1px white solid;
+        padding: 0.1em;
+       //padding: 0;
+       //spacing: 0;
+}
+
+.grid-view table.items th
+{
+        color: #FFCB05;  // maize
+        background: #00274C;
+        text-align: center;
+}
+
+.grid-view table.items th a
+{
+        color: #FFCB05;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.grid-view table.items th a:hover
+{
+        color: #587ABC;
+}
+
+.grid-view table.items th a.asc
+{
+        background:url(up.gif) right center no-repeat;
+        padding-right: 10px;
+}
+
+.grid-view table.items th a.desc
+{
+        background:url(down.gif) right center no-repeat;
+        padding-right: 10px;
+}
+
+.grid-view table.items td.cellSelection {
+    //background: #FFCB05;
+    
+}
+
+.grid-view table.items tr.even
+{
+        background: #E4E1DF;
+   
+}
+
+.grid-view table.items tr.odd
+{
+        background: #EFF0F1;
+}
+
+.grid-view table.items tr.selected
+{
+        background: #587ABC;
+}
+
+.grid-view table.items tr:hover.selected
+{
+        background: #587ABC;
+}
+
+.grid-view table.items tbody tr:hover
+{
+        background: #CFC096;
+}
+
+.grid-view .link-column img
+{
+        border: 0;
+}
+
+.grid-view .button-column
+{
+        text-align: center;
+        width: 60px;
+}
+
+.grid-view .button-column img
+{
+        border: 0;
+}
+
+.grid-view .checkbox-column
+{
+        width: 15px;
+}
+.grid-view .checked {
+    background-color: #FFCB05;
+}
+
+.grid-view .summary
+{      // float: left;
+        margin: 1px 5px 1px 5px;
+        text-align: left;
+}
+
+.grid-view .pager
+{
+        margin: 2px 2px 2px 2px;
+        text-align: right;
+}
+
+.grid-view .empty
+{
+        font-style: italic;
+}
+.grid-view .filters input,
+.grid-view .filters select
+{
+        width: 100%;
+        border: 1px solid #ccc;
+}
+
